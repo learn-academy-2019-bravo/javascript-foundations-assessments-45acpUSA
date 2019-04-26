@@ -3,7 +3,18 @@
 ### Without using Google answer the following:
 
 1. List the data types in Javascript. Indicate which are primitives.
-  random
+  numbers - primitive
+  strings - primitive
+  booleans - primitive
+  null - primitive
+  NaN - primitive
+  array
+  function
+  object
+  class
+  loop
+  method
+
 2. What's the difference between =, ==, and === in JavaScript?
 
 3. What is the difference between an array's index and length?
