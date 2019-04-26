@@ -34,6 +34,10 @@
   A function's declaration is the naming portion of the function. In other words, what you'd like your function to be called. The argument is simply a placeholder for any future values you intend to pass through the function. This value will be used within the function body. A function call is how you would utilize a function after its creation. Functions can be called in a variety of ways, such as but not limited to, logging it, returning it, or even passing it into another function.
 
 6. What are the three main steps in saving work to github?
+  git status - checks to see if you have any unadded changes
+  git add . - updates changes
+  git commit - allows for commenting on what you changed/updated
+  git push - pushes the file up to github
 
 7. What is the terminal command to move directories?
 
