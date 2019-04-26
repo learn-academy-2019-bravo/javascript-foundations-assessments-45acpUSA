@@ -51,6 +51,7 @@
   My favorite topic this week was classes and class inheritance because that is the topic that I have the least experience in. I like to work on any and all weaknesses I have in order to develop my skillset in a holistic-sense.
 
 10. What was your "A-ha!" moment this week?
+  My "A-ha!" moment this week was working with classes, specifically inheritance. In the situation where you have a grandparent, parent and child, the child's super() portion needs to include all the arguments from its immediate parent and NOT the grandparent (in the instance that you may have added arguments to the parent). It was extremely satisfying and allowed me to solidify more of a baseline knowledge of classes and inheritance, especially before getting into React where we will be revisiting the topic again.
 
 ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
 
