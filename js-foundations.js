@@ -2,6 +2,10 @@
 
 // 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not. If it is, print the number and "is divisible by three" or, print the number and "is not divisble by three".
 
+num => {
+  num % 3 === 0 ? console.log(`${num} is divisible by three`) : console.log(`${num} is not divisible by three`)
+}
+
 // 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you. Write a function that returns a description of you.
 
 // 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
