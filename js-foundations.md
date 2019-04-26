@@ -72,3 +72,4 @@ Without checking the function with node, I believe the function will log 'outsid
   JSON stands for JavaScript Object Notation and it specifies a specific syntax for how to deal with objects and classes.
 
 3. Describe a closure, what is it good for and how do you recognize one?
+  IDK
