@@ -26,6 +26,9 @@
   An array's index is the position that the value occupies within the array. An array's length is the number of values within the array. The BIG difference is counting. When counting index positions, you start with 0, but when counting the number of values in an array (length) you start with 1.
 
 4. What are the three parts of a for loop?
+  Within the parentheses of a for loop, you need an initialization value, the end value and an instruction of how you'd like to iterate. In reference to the last element, a more specific explanation for the operator being used would either be an increment or decrement, for simple cases.
+
+  E.g. for (i=0; i<arr.length; i++) {}
 
 5. What is a function's declaration, argument, and call?
 
