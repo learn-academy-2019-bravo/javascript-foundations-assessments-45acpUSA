@@ -16,6 +16,11 @@
   method
 
 2. What's the difference between =, ==, and === in JavaScript?
+  A single = is used as an assignment operator. This simply means that you're assigning value to something. For example, you're assigning a value to a variable.
+
+  A double == means about equal to. In other words, it will look at the primitive values. For example, '7' == 7 will evaluate as true.
+
+  A triple === means strictly equal to. In other words, are the two values EXACTLY equal?
 
 3. What is the difference between an array's index and length?
 
