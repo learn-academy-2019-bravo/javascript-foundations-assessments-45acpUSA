@@ -26,6 +26,14 @@ console.log(myDesc(helloMe));
 
 // 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
 
+const groceries = ["eggs", "sausages", "milk", "bread", "kombucha"]
+const newList = arr => {
+  return groceries.filter(val=>{
+    return arr.indexOf(val) % 2 === 0
+  })
+}
+console.log(newList(groceries))
+
 // 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr). Assume numbers and punctuation symbols will not be included in the parameter.
 
 // 5. Given the arrays below, write a function animalNums that uses a for loop to print one value from each array concatenated together.
