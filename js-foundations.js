@@ -8,6 +8,22 @@ num => {
 
 // 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you. Write a function that returns a description of you.
 
+//First iteration with function outside of object
+const helloMe = {
+  first_name: "Matt",
+  last_name: "Au",
+  height: "60in",
+  weight: "190lbs",
+}
+
+const myDesc = (obj) => {
+  return Object.values(obj)
+}
+console.log(myDesc(helloMe));
+
+//Second iteration with function within object
+
+
 // 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
 
 // 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr). Assume numbers and punctuation symbols will not be included in the parameter.
