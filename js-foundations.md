@@ -45,7 +45,7 @@
   cd .. - pops you out one directory level
 
 8. Do you have a suggestion for a Check In question?
-
+  What is your favorite brand of sucks?
 
 9. What was your favorite topic this week?
   My favorite topic this week was classes and class inheritance because that is the topic that I have the least experience in. I like to work on any and all weaknesses I have in order to develop my skillset in a holistic-sense.
