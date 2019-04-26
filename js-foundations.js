@@ -53,7 +53,7 @@ const combo = (arr1, arr2) => {
     console.log(`${arr1[i]} ${arr2[i]}`)
   }
 }
-console.log(combo(nums, nouns))
+combo(nums, nouns)
 
 // output should be: "9 ducks", etc
 
