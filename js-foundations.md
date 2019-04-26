@@ -40,6 +40,9 @@
   git push - pushes the file up to github
 
 7. What is the terminal command to move directories?
+  cd "dirName" - allows you to move into a specified directory
+  cd ~ - pops you out to your specified User (e.g. /User/Matt)
+  cd .. - pops you out one directory level
 
 8. Do you have a suggestion for a Check In question?
 
