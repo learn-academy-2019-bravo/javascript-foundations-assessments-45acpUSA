@@ -73,3 +73,4 @@ Without checking the function with node, I believe the function will log 'outsid
 
 3. Describe a closure, what is it good for and how do you recognize one?
   IDK
+  After perusing google I found that a closure is a feature where an inner function has access to the outer function's variables. This means that if you have a nested function, you can use a function in the outer function within the nested function.
