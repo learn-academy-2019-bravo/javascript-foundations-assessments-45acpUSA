@@ -48,6 +48,23 @@ var nums = [9, 5, 88, 2, 5, 42, 57]
 
 var nouns = ["ducks", "elephants", "pangolin", "rhinoceros", "giraffes", "penguins", "llamas"]
 
-// output should be: "9 ducks", etc
+const combo = (arr1, arr2) => {
+  for (let i=0; i<arr2.length; i++) {
+    let comboArr = arr1[i].concat(arr2[i])
+  }
+  return comboArr
+}
+console.log(combo(nums, nouns))
+
+output should be: "9 ducks", etc
 
 //6. Create an array of 5 numbers. Write a function that loops through the array and returns a new array of the numbers multiplied by 5.
+
+const numbers = [1, 2, 3, 4, 5]
+
+const multByFive = arr => {
+  return arr.map(val=>{
+    return val * 5
+  })
+}
+console.log(multByFive(numbers))
