@@ -66,7 +66,9 @@ function logIt(){
 
 logIt()
 ```
+Without checking the function with node, I believe the function will log 'outside' then behind the scenes it will reassign the value of text to 'inside'. If text was logged immediately after the function log it should then log 'inside'.
 
 2. What is JSON? How does it relate to javascript objects?
+  JSON stands for JavaScript Object Notation and it specifies a specific syntax for how to deal with objects and classes.
 
 3. Describe a closure, what is it good for and how do you recognize one?
