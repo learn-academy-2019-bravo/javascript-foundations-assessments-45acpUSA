@@ -23,6 +23,7 @@
   A triple === means strictly equal to. In other words, are the two values EXACTLY equal?
 
 3. What is the difference between an array's index and length?
+  An array's index is the position that the value occupies within the array. An array's length is the number of values within the array. The BIG difference is counting. When counting index positions, you start with 0, but when counting the number of values in an array (length) you start with 1.
 
 4. What are the three parts of a for loop?
 
