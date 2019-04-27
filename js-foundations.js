@@ -12,7 +12,7 @@ num => {
 const helloMe = {
   first_name: "Matt",
   last_name: "Au",
-  height: "60in",
+  height: "70in",
   weight: "190lbs",
 }
 
@@ -22,6 +22,30 @@ const myDesc = (obj) => {
 console.log(myDesc(helloMe));
 
 //Second iteration with function within object
+const helloMe = {
+  first_name: "Matt",
+  last_name: "Au",
+  height: "70in",
+  weight: "190lbs",
+  description: function () {
+    return `${this.first_name} ${this.last_name} ${this.height} ${this.weight}`
+  }
+}
+console.log(helloMe.description())
+
+//****Interesting observation***********
+
+const helloMe = {
+  first_name: "Matt",
+  last_name: "Au",
+  height: "70in",
+  weight: "190lbs",
+  description: () => {
+//****When creating a function within an object, ARROW SYNTAX DOES NOT WORK
+//****If you log helloMe.description() with the arrow syntax, the output is undefined for each key being called upon.
+    return `${this.first_name} ${this.last_name} ${this.height} ${this.weight}`
+  }
+}
 
 
 // 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
